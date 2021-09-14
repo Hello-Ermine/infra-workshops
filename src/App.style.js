@@ -9,6 +9,7 @@ export const AppSocial = styled.div`
   position: fixed;
   left: 48px;
   bottom: 48px;
+  z-index: 999;
 
   a {
     color: white;

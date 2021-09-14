@@ -4,12 +4,13 @@ import Background from '../../assets/home/home_background2.png';
 export const HomeContainer = styled.section`
   position: relative;
   background-color: #1e1f21;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-image: url(${Background});
   background-position: 0 85%;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 `;
 
 export const HomeContent = styled.div`
